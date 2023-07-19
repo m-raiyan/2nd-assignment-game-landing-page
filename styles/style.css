@@ -88,3 +88,241 @@ a:hover {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+.btn {
+    display: inline-block;
+    font-size: var(--m-size);
+    font-weight: 600;
+    color: white;
+    padding: 1.3125rem 2.5rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+
+}
+
+/* HEADER SECTION STARTS */
+.header {
+    padding-top: 3rem;
+}
+
+.header .container>.row {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header .header-logo {
+    margin-bottom: 3.875rem;
+}
+
+.header .header-logo .header-logo-image {
+    margin-right: 1.25rem;
+}
+
+.header .header-logo .header-logo-text p {
+    font-size: var(--logo-size);
+    color: var(--quaternary-color);
+    font-weight: 700;
+}
+
+.header .header-logo .header-logo-text p span {
+    color: var(--primary-color);
+}
+
+.header nav .nav {
+    flex-direction: column;
+}
+
+.header nav .nav .nav-item:not(:first-of-type) {
+    margin-top: 2.25rem;
+}
+
+.header nav .nav .nav-item a {
+    font-size: var(--s-size);
+    color: var(--tertiary-color);
+    font-weight: 500;
+}
+
+.header nav .nav .nav-social {
+    background-color: var(--follow-bg-color);
+    padding: 1.0625rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 3.875rem;
+}
+
+.header nav .nav .nav-social ul li p {
+    color: var(--tertiary-color);
+    font-size: var(--s-size);
+    font-weight: 500;
+}
+
+.header nav .nav .nav-social ul li a {
+    font-size: 1.7rem;
+}
+
+.header nav .nav .nav-social ul li .youtube {
+    color: red;
+    margin: 0 1rem 0 1.5rem;
+}
+
+.header nav .nav .nav-social ul li .tiktok {
+    color: black;
+}
+
+/* HEADER SECTION */
+
+/* BANNER SECTION */
+.banner .container>.row {
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.banner .banner-content {
+    width: 100%;
+}
+
+.banner .banner-content .banner-content-text {
+    margin: 4.875rem 0 9.375rem;
+}
+
+.banner .banner-content h2 {
+    color: var(--quaternary-color);
+    text-transform: uppercase;
+    font-size: var(--l-size);
+}
+
+.banner .banner-content h1 {
+    font-size: 3.75rem;
+}
+
+.banner .banner-content ul {
+    flex-direction: column;
+}
+
+.banner .banner-content ul li {
+    margin-bottom: 1.0625rem;
+}
+
+.banner .banner-content>.row {
+    justify-content: center;
+}
+
+.banner .banner-content ul li p {
+    font-size: var(--m-size);
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.banner .banner-content ul li p i {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+
+.banner-btn {
+    margin-top: 1.5rem;
+}
+
+.banner-btn .btn-1 {
+    background-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+.banner-btn .btn-2 {
+    background-color: var(--blue-btn);
+}
+
+.banner .banner-content .banner-image {
+    text-align: center;
+    margin-top: 4.875rem;
+}
+
+/* BANNER SECTION ENDS */
+
+/* GAMER SECTION STARTS */
+.gamer .gamer-content {
+    width: 100%;
+}
+
+.gamer-content-image {
+    text-align: center;
+}
+
+.gamer-text {
+    text-align: center;
+}
+
+.gamer-text h2 {
+    font-size: var(--l-size);
+}
+
+.gamer-text p {
+    font-size: var(--s-size);
+    color: var(--secondary-color);
+    font-weight: 400;
+    margin: 2rem 0 1.5rem;
+    max-width: 520px;
+}
+
+.gamer-btn {
+    margin-bottom: 3.75rem;
+}
+
+.gamer-btn .btn {
+    background-color: var(--primary-color);
+}
+
+.gamer-text h1 {
+    font-size: var(--m-size);
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.gamer-text h1 span {
+    font-size: var(--xm-size);
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+/* GAMER SECTION ENDS */
+
+/* ONLINE SECTION STARTS */
+.online {
+    margin: 9.375rem 0 3.75rem;
+}
+
+.online .container>.row {
+    gap: 30px;
+}
+
+.online-header {
+    text-align: center;
+    margin-bottom: 3.75rem;
+}
+
+.online-header h1 {
+    font-size: var(--l-size);
+    margin-bottom: 1rem;
+}
+
+.online-card {
+    text-align: center;
+    width: 100%;
+}
+.online-card-image.card-bg {
+    position: relative;
+}
+.online-card-image.card-bg::after {
+    content: '';
+    clear: both;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    width: 334px;
+    height: 97%;
+    background-color: #000000b2;
+    background-blend-mode: multiply;
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    transform: translateX(-50%);
+}
