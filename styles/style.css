@@ -72,3 +72,19 @@ img {
 ul {
     list-style: none;
 }
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+.section-title {
+    font-size: var(--xl-size);
+    font-weight: 600;
+}
+
+.gradient-color {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
