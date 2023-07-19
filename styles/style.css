@@ -1,0 +1,74 @@
+:root {
+    
+    --primary-color: rgba(249, 72, 178, 1);
+    --primary-gradient: rgba(249, 72, 178, 1), rgba(135, 88, 241, 1);
+    --secondary-color: #534C64;
+    --tertiary-color: #3C354F;
+    --xs-size: 1rem;
+    --s-size: 1.125rem;
+    --m-size: 1.25rem;
+    --xm-size: 1.5rem;
+    --l-size: 2rem;
+    --xl-size: 3rem;
+    --xxl-size: 5.9375rem;
+    --logo-size: 2.8125rem;
+    --follow-bg-color: #E7E6E9;
+    --quaternary-color: #0B0223;
+    --blue-btn: #4EC5F7;
+    --foot-color: rgba(255, 255, 255, 0.60);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90em;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
